@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body class="bg-[#1a0b2eFF] text-white">
+    <!-- navbar section -->
+    <nav
+      class="flex flex-row justify-between items-center sm:py-4 py-2 sm:px-40 px-10"
+    >
+      <div>
+        <h1 class="sm:text-5xl text-3xl font-extrabold">
+          <span class="text-white">Tech</span
+          ><span
+            class="bg-gradient-to-b from-[#c505d5] to-[#f7c054] bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h1>
+      </div>
+      <div
+        class="text-white sm:flex hidden flex-row justify-between items-center gap-10 font-normal text-lg"
+      >
+        <a href="#about">About</a><a href="#featured">Episode</a
+        ><a href="#host">Host</a>
+      </div>
+      <div>
+        <button
+          class="bg-linear-to-bl from-[#c505d5] to-[#f7c054] rounded-xl px-5 py-3 cursor-pointer text-white sm:flex hidden flex-row justify-between items-center gap-2"
+        >
+          Subscribe<i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="sm:hidden cursor-pointer">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- navbar section -->
+
+    <!-- hero section -->
+    <section
+      id="hero"
+      class="bg-[url(./assets/hero-bg.png)] sm:py-26 py-2 sm:px-40 px-10 relative"
+    >
+      <button
+        class="bg-green-300 font-bold rounded-3xl px-3 py-1 absolute top-8 right-34 z-1"
+      >
+        NEW
+      </button>
+      <div
+        class="flex flex-col justify-center items-center gap-10 relative left-0"
+      >
+        <img
+          src="./assets/microphone.png"
+          alt=""
+          class="bg-pink-500 rounded-full sm:px-28 px-20 sm:py-20 py-16 sm:w-auto w-56 sm:h-auto h-56 object-fill border-4 border-blue-900 justify-center items-center"
+        />
+
+        <div class="flex flex-col justify-center items-center gap-5">
+          <h2 class="text-white sm:text-5xl text-3xl font-extrabold">
+            TechWave
+          </h2>
+          <p class="text-white font-normal text-base text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam,
+            cumque.
+          </p>
+          <div class="flex flex-row justify-between items-center gap-5">
+            <button
+              class="text-white bg-linear-to-bl from-[#c505d5] to-[#f7c054] rounded-3xl px-5 py-3 flex flex-row justify-between items-center gap-3"
+            >
+              <i class="fa-brands fa-spotify"></i>Listen On Spotify</button
+            ><button
+              class="text-green-500 bg-[#171f3d] rounded-3xl px-5 py-3 flex flex-row justify-between items-center gap-3 border-1 border-green-500"
+            >
+              <i class="fa-regular fa-envelope"></i>Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section -->
+
+    <!-- about section -->
+    <section
+      id="about"
+      class="flex flex-col justify-center items-center gap-10 sm:px-40 px-10 sm:py-10 py-5 text-center"
+    >
+      <div class="flex flex-col justify-center items-center gap-5">
+        <div class="flex flex-col justify-center items-center gap-2">
+          <h1 class="sm:text-5xl text-3xl font-extrabold">About The Podcast</h1>
+          <p class="text-center max-w-150">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+            dolorum id atque voluptates impedit similique quia, in, nostrum
+            repudiandae cupiditate maiores quibusdam reprehenderit nisi
+            expedita.
+          </p>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+          nesciunt.
+        </p>
+      </div>
+      <div
+        class="flex flex-row flex-wrap justify-center items-center gap-20 text-green-500"
+      >
+        <div class="flex flex-col justify-center items-center gap-3">
+          <h1 class="text-3xl font-extrabold">150K+</h1>
+          <p class="text-white">Lorem, ipsum.</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-3">
+          <h1 class="text-3xl font-extrabold">200+</h1>
+          <p class="text-white">Lorem, ipsum.</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-3">
+          <h1
+            class="text-3xl font-extrabold flex flex-row justify-center items-center gap-1"
+          >
+            4.9<i class="fa-solid fa-star text-xl"></i>
+          </h1>
+          <p class="text-white">Lorem, ipsum.</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-3">
+          <h1 class="text-3xl font-extrabold">50+</h1>
+          <p class="text-white">Lorem, ipsum.</p>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+
+    <!-- choose section -->
+    <section
+      id="choose"
+      class="sm:px-40 px-10 py-10 flex flex-col justify-center items-center gap-20"
+    >
+      <h1 class="sm:text-5xl text-3xl font-extrabold">Why Choose TechWave</h1>
+      <div class="grid sm:grid-cols-3 grid-cols-1 gap-5">
+        <div
+          class="flex flex-col justify-center items-start gap-5 bg-[#2b104e] p-10 rounded-3xl sm:row-span-2"
+        >
+          <img src="./assets/headphone.png" alt="" />
+          <h2 class="text-xl font-bold">Phone</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            culpa voluptatem sapiente aliquid ex doloremque alias nihil
+            repellendus beatae laborum?
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-start gap-5 bg-[#2b104e] p-10 rounded-3xl sm:col-span-2"
+        >
+          <img src="./assets/headphone.png" alt="" />
+          <h2 class="text-xl font-bold">Phone</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            culpa voluptatem sapiente aliquid ex doloremque alias nihil
+            repellendus beatae laborum?
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-start gap-5 bg-[#2b104e] p-10 rounded-3xl sm:col-span-2"
+        >
+          <img src="./assets/headphone.png" alt="" />
+          <h2 class="text-xl font-bold">Phone</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            culpa voluptatem sapiente aliquid ex doloremque alias nihil
+            repellendus beatae laborum?
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-start gap-5 bg-[#2b104e] p-10 rounded-3xl sm:col-span-2"
+        >
+          <img src="./assets/headphone.png" alt="" />
+          <h2 class="text-xl font-bold">Phone</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            culpa voluptatem sapiente aliquid ex doloremque alias nihil
+            repellendus beatae laborum?
+          </p>
+        </div>
+        <div
+          class="flex flex-col justify-center items-start gap-5 bg-[#2b104e] p-10 rounded-3xl"
+        >
+          <img src="./assets/headphone.png" alt="" />
+          <h2 class="text-xl font-bold">Phone</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi
+            culpa voluptatem sapiente aliquid ex doloremque alias nihil
+            repellendus beatae laborum?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- choose section -->
+
+    <!-- Featured Section -->
+    <section
+      id="featured"
+      class="sm:px-40 px-10 py-10 flex flex-col justify-center items-center gap-20"
+    >
+      <h2 class="sm:text-5xl text-3xl font-extrabold">Featured Episodes</h2>
+      <div class="grid sm:grid-cols-3 grid-cols-1 gap-10">
+        <div
+          class="bg-[#260f45] rounded-3xl flex flex-col justify-center items-start"
+        >
+          <img src="./assets/img_avatar.png" alt="" class="rounded-t-3xl" />
+          <div
+            class="flex flex-col justify-center items-start gap-2 px-10 py-10"
+          >
+            <h3 class="text-3xl font-bold">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae necessitatibus hic praesentium qui ducimus? Nihil.
+            </p>
+            <div>
+              <button
+                class="text-green-500 flex flex-row justify-between items-center gap-1"
+              >
+                <i class="fa-solid fa-clock"></i>42 min
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#260f45] rounded-3xl flex flex-col justify-center items-start"
+        >
+          <img src="./assets/img_avatar.png" alt="" class="rounded-t-3xl" />
+          <div
+            class="flex flex-col justify-center items-start gap-2 px-10 py-10"
+          >
+            <h3 class="text-3xl font-bold">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae necessitatibus hic praesentium qui ducimus? Nihil.
+            </p>
+            <div>
+              <button
+                class="text-green-500 flex flex-row justify-between items-center gap-1"
+              >
+                <i class="fa-solid fa-clock"></i>42 min
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#260f45] rounded-3xl flex flex-col justify-center items-start"
+        >
+          <img src="./assets/img_avatar.png" alt="" class="rounded-t-3xl" />
+          <div
+            class="flex flex-col justify-center items-start gap-2 px-10 py-10"
+          >
+            <h3 class="text-3xl font-bold">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae necessitatibus hic praesentium qui ducimus? Nihil.
+            </p>
+            <div>
+              <button
+                class="text-green-500 flex flex-row justify-between items-center gap-1"
+              >
+                <i class="fa-solid fa-clock"></i>42 min
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section -->
+
+    <!-- host section -->
+    <section
+      id="host"
+      class="sm:px-40 px-10 py-10 flex flex-col justify-center items-center gap-10"
+    >
+      <h2 class="sm:text-5xl text-3xl font-extrabold">Meet The Host</h2>
+      <div class="flex sm:flex-row flex-col justify-center items-center gap-20">
+        <img src="./assets/host.png" alt="" />
+        <div
+          class="flex flex-col justify-center sm:items-start items-center gap-5"
+        >
+          <h3 class="font-bold text-3xl">Alex Kumar</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+            ipsum voluptates dolores doloremque, necessitatibus soluta rem
+            repellendus harum accusantium expedita dolor ad maiores fuga minima
+            pariatur, sint quae id. Maiores consequatur exercitationem eveniet!
+            Cupiditate quos nam ipsum accusamus inventore magni.
+          </p>
+          <div class="flex flex-row justify-between items-start gap-2">
+            <div class="bg-[#2c1149] p-3 rounded-full">
+              <img src="./assets/linkedin.png" alt="" />
+            </div>
+            <div class="bg-[#2c1149] p-3 rounded-full">
+              <img src="./assets/x.png" alt="" />
+            </div>
+            <div class="bg-[#2c1149] p-3 rounded-full">
+              <img src="./assets/instagram.png" alt="" />
+            </div>
+            <div class="bg-[#2c1149] p-3 rounded-full">
+              <img src="./assets/youtube.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- host section -->
+
+    <!-- footer section -->
+    <footer
+      class="bg-[url(./assets/footer-bg.png)] py-36 sm:px-40 px-10 sm:relative"
+    >
+      <div
+        class="sm:relative left-10 flex flex-col justify-center items-center gap-5"
+      >
+        <h1 class="text-5xl font-extrabold">
+          <span class="text-white">Tech</span
+          ><span
+            class="bg-gradient-to-b from-[#c505d5] to-[#f7c054] bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h1>
+        <div
+          class="flex flex-row flex-wrap justify-center items-center sm:gap-7 gap-3 sm:w-auto max-w-60"
+        >
+          <button class="flex flex-row justify-between items-center gap-2">
+            <i class="fa-brands fa-youtube"></i>Youtube
+          </button>
+          <button class="flex flex-row justify-between items-center gap-2">
+            <i class="fa-brands fa-youtube"></i>Youtube
+          </button>
+          <button class="flex flex-row justify-between items-center gap-2">
+            <i class="fa-brands fa-youtube"></i>Youtube
+          </button>
+          <button class="flex flex-row justify-between items-center gap-2">
+            <i class="fa-brands fa-youtube"></i>Youtube
+          </button>
+        </div>
+        <p>&copy; Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+    </footer>
+    <!-- footer section -->
+  </body>
+</html>
